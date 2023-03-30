@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Adatbázis: `s53_db`
+-- Adatbázis: `vallas`
 --
 
 -- --------------------------------------------------------
@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Tábla szerkezet ehhez a táblához `idezet`
 --
-
+CREATE DATABASE vallas;
 CREATE TABLE `idezet` (
   `idezet_id` int(11) NOT NULL,
   `idezet_szoveg` varchar(1000) COLLATE utf8_hungarian_ci NOT NULL,
