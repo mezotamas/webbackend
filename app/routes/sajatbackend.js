@@ -229,18 +229,7 @@ app.post('/velemeny', (req, res) => {
 
     
   })
-  app.get('/film', (req, res) => {
-
-    db_connect()
-      connection.query('SELECT * from film', function (err, rows, fields) {
-        if (err) throw err
-      
-        console.log(rows)
-        res.send(rows)
-      })
-      
-      connection.end()
-   })
+ 
   
 
 
