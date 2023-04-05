@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2023. Ápr 05. 11:23
+-- Létrehozás ideje: 2023. Ápr 05. 11:31
 -- Kiszolgáló verziója: 10.4.27-MariaDB
 -- PHP verzió: 8.1.12
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `vallas`
 --
+CREATE DATABASE IF NOT EXISTS `vallas` DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE `vallas`;
 
 -- --------------------------------------------------------
 
