@@ -98,19 +98,7 @@ module.exports = function(app) {
 })
 
 
-app.get('/idezet', (req, res) => {
 
-  db_connect()
-    
-    connection.query('SELECT * from idezet inner join kategoria on idezet_kategoria=kategoria_id order by idezet_id desc', function (err, rows, fields) {
-      if (err) throw err
-    
-      console.log(rows)
-      res.send(rows)
-    })
-    
-    connection.end()
-  })
   app.get('/statisztika3', (req, res) => {
 
     db_connect()
